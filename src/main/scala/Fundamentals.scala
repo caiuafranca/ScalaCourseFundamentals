@@ -17,4 +17,14 @@ object Fundamentals {
     }
 
   }
+  def verifica_maior_menor(a:Int, b:Int): String = {
+    if (a>b) {
+      "A > B"
+    }else if (b>a) {
+      "B > A"
+    }else{
+      "valores são iguais"
+    }
+  }
+
 }
